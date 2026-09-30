@@ -50,6 +50,36 @@ Official documentation says GPT-6 Astra supports `low`, `medium`, `high`, `xhigh
 6. **Accept against evidence.** Objective checks can close low-risk work. Consequential tradeoffs return to the orchestrator or operator.
 7. **Record the outcome.** Capture enough evidence to improve the next routing decision, then stop.
 
+## Optional Alder cross-project coordination
+
+An organization with several projects may use a lightweight cross-project coordinator,
+called **Alder** here. Alder supplements each project's accountable orchestrator; it
+does not become a second project operations center.
+
+- Read the project's compact, dated current-artifact handoff first. It should identify
+  the accountable owner, canonical artifacts, current state, decision gate, and
+  freshness boundary. If it is missing or stale, report that condition rather than
+  reconstructing the project from raw conversation history.
+- Reuse only the narrow evidence needed for the new decision: canonical pointers,
+  accepted decisions, and explicitly transferable constraints. Preserve project
+  ownership, private boundaries, and the source of each conclusion.
+- Keep all project mutations with the project owner. Alder does not independently
+  edit project state, assign project work, deploy, contact people, access client
+  systems, or expand permissions.
+- Record the product surface exactly as exposed. Distinguish a ChatGPT conversation
+  or any user-visible work-mode label from a Codex/Work task when that difference
+  matters; record model and effort only when the surface exposes them. Do not invent
+  hidden compute, task usage, or comparable metrics.
+- Treat a handoff as fresh only at its recorded revision. If remote retrieval matters,
+  make a deliberate, scoped sync and verify the remote revision; uncommitted local
+  edits are not remotely available.
+- Measure coordination by accepted results: correct current pointers, avoided
+  duplicate reconstruction, preserved ownership, and decisions transferred with
+  usable evidence. Do not use tool-call or message counts as a success measure.
+- Apply the work loop's one focused repair rule. If a bounded handoff repair does not
+  resolve the ambiguity, return the issue to the accountable project owner and finish
+  the coordination pass.
+
 ## Handoff template
 
 Use this structure for substantial work:
