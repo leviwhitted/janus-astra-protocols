@@ -63,9 +63,10 @@ does not become a second project operations center.
 - Reuse only the narrow evidence needed for the new decision: canonical pointers,
   accepted decisions, and explicitly transferable constraints. Preserve project
   ownership, private boundaries, and the source of each conclusion.
-- Keep all project mutations with the project owner. Alder does not independently
-  edit project state, assign project work, deploy, contact people, access client
-  systems, or expand permissions.
+- Alder may relay an operator's explicitly authorized objectives to the accountable project
+  Operations Center, coordinate work that owner accepts, and verify returned outcomes.
+  Alder must not bypass project ownership, create duplicate lanes, or mutate project
+  state directly.
 - Record the product surface exactly as exposed. Distinguish a ChatGPT conversation
   or any user-visible work-mode label from a Codex/Work task when that difference
   matters; record model and effort only when the surface exposes them. Do not invent
